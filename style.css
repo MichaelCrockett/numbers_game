@@ -20,6 +20,7 @@ body {
   border-color: lime;
 }
 
+
 .panel {
   max-width: 80%;
   margin: 20px auto;
@@ -50,8 +51,12 @@ input {
   border-color: lime;
   color: lime;
   font-size: 2em;
-  width: 15%;
+  width: 20%;
   padding: 10px;
   text-align: center;
   font-family: monospace;
+}
+
+input::placeholder {
+  color: lime;
 }
