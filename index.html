@@ -11,13 +11,13 @@
   <div id="container">
     <div class="panel">
       <h1>WOULD YOU LIKE<br>TO PLAY A GAME?</h1>
-      <h3>Guess the number between 1 and 100</h3>
+      <h3>Guess the number 1-100</h3>
       <button onclick="newGame()">BEGIN GAME</button>
     </div>
 
     <div class="panel">
-      <h3>Enter guess and press enter</h3>
-      <input type="text" placeholder="___">
+      <h3>Enter guess and press return</h3>
+      <input type="text" placeholder="_ _ _">
       <p>Number of previous attempts: <span>0</span></p>
     </div>
 
@@ -37,7 +37,7 @@
     }
 
     function init() {
-      initialNumber = Math.floor(Math.random() *100 +1);
+      initialNumber = Math.floor(Math.random() *100 + 1);
       console.log(initialNumber);
     }
 
