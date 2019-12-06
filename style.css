@@ -1,4 +1,50 @@
 body {
-background-color: black;
-color: lime;
+  background-color: black;
+  color: lime;
+  font-family: monospace;
+  font-size: 1.4em;
+}
+
+#container {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: lime;
+}
+
+.panel {
+  max-width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 10px;
+  /* border-style: dashed;
+  border-width: 3px;
+  border-color: lime; */
+}
+
+button {
+  background-color: black;
+  height: 2.2em;
+  color: lime;
+  font-family: monospace;
+  border-style: dashed;
+  border-width: 0.5px;
+  border-color: lime;
+  font-size: 2em;
+  width: 40%;
+}
+
+input {
+  background-color: black;
+  border-style: dashed;
+  border-width: 0.5px;
+  border-color: lime;
+  color: lime;
+  font-size: 2em;
+  width: 8%;
+  padding: 10px;
+  text-align: center
 }
