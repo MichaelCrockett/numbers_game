@@ -1,14 +1,20 @@
 body {
-  background-color: black;
+  background-image: url("matrix-2354492.jpg");
+  background-size: cover;
   color: lime;
   font-family: monospace;
-  font-size: 1.4em;
+  font-size: 1.8em;
+  margin: 10px;
+  text-align: center;
 }
 
 #container {
+  background-color: black;
+  opacity: 80%;
   max-width: 80%;
-  margin: 0 auto;
-  text-align: center;
+  min-width: 630px;
+  margin: 15px auto 15px auto;
+  /* text-align: center; */
   padding: 10px;
   border-style: dashed;
   border-width: 5px;
@@ -18,7 +24,7 @@ body {
 .panel {
   max-width: 80%;
   margin: 20px auto;
-  text-align: center;
+  /* text-align: center; */
   padding: 10px;
   /* border-style: dashed;
   border-width: 3px;
@@ -33,8 +39,9 @@ button {
   border-style: dashed;
   border-width: 0.5px;
   border-color: lime;
-  font-size: 2em;
+  font-size: 1em;
   width: 40%;
+  padding-bottom: 6px;
 }
 
 input {
@@ -44,7 +51,8 @@ input {
   border-color: lime;
   color: lime;
   font-size: 2em;
-  width: 8%;
+  width: 15%;
   padding: 10px;
-  text-align: center
+  text-align: center;
+  font-family: monospace;
 }

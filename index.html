@@ -7,12 +7,12 @@
 <link rel="stylesheet" href="style.css">
   <title>Number Game</title>
 </head>
-<body>
+<body onload="init()">
   <div id="container">
     <div class="panel">
-      <h2>WOULD YOU LIKE TO PLAY A GAME?</h2>
+      <h1>WOULD YOU LIKE<br>TO PLAY A GAME?</h1>
       <h3>Guess the number between 1 and 100</h3>
-      <button>BEGIN GAME</button>
+      <button onclick="newGame()">BEGIN THE GAME<br></button>
     </div>
 
     <div class="panel">
@@ -26,6 +26,22 @@
       <p id="guessLog"></p>
     </div>
   </div>
+
+  <script>
+
+    var initialNumber;
+
+    function newGame() {
+      window.location.reload();
+
+    }
+
+    function init() {
+      initialNumber = Math.floor(Math.random() *100 +1);
+      console.log(initialNumber);
+    }
+
+  </script>
 
 </body>
 </html>
