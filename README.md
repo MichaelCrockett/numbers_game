@@ -1,5 +1,7 @@
 # Numbers Game
 
+![Screenshot](numbers_game.png)
+
 This is a simple Guess the Number game which was my first solo project, post CodeClan.
 
 The game is written in vanilla JavaScript, HTML and CSS.
