@@ -1,6 +1,7 @@
-# numbers_game
+# Numbers Game
 
-A simple Guess the Number game in vanilla Javascript, which was my first solo project, post CodeClan.
+This is a simple Guess the Number game which was my first solo project, post CodeClan.
 
-To run it, simply clone the repository and open index.html in your browser.
+The game is written in vanilla JavaScript, HTML and CSS
 
+To run it, simply clone the repository to a local folder and open ```index.html``` in your browser.
