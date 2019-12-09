@@ -21,7 +21,7 @@ body {
 }
 
 
-.panel {
+.panel1  {
   max-width: 80%;
   margin: 20px auto;
   /* text-align: center; */
@@ -40,8 +40,8 @@ button {
   border-width: 0.5px;
   border-color: lime;
   font-size: 1em;
-  width: 40%;
   padding-bottom: 6px;
+  margin-bottom: 6px;
 }
 
 input {
@@ -57,12 +57,16 @@ input {
   font-family: monospace;
 }
 
-input::placeholder {
-  color: lime;
-}
-
 #textOutput {
   background-color: lime;
   color: black;
   opacity: 100%;
+}
+
+.activeButton {
+  background: lime;
+  color: black;
+  border-style: dashed;
+  border-width: 0.5px;
+  border-color: lime;
 }

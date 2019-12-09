@@ -9,19 +9,19 @@
 </head>
 <body onload="init()">
   <div id="container">
-    <div class="panel">
+    <div class="panel1">
       <h1>WOULD YOU LIKE<br>TO PLAY A GAME?</h1>
       <h3>Guess the number 1-100</h3>
 
-      <p>Select difficulty setting:</p>
-      <button id="easyBtn" onclick="easyMode()" class="">Easy: Guess in 10 attempts [default]</button>
-      <button id="hardBtn" onclick="hardMode()" class="">Hard: Guess in 5 attempts</button>
-      <button id="newGameButton" onclick="newGame()">BEGIN GAME</button>
+      <p>START HERE:</p>
+      <button id="easyBtn" onclick="easyMode()" class="">EASY: 10 ATTEMPTS</button>
+      <button id="hardBtn" onclick="hardMode()" class="">HARD: 5 ATTEMPTS</button>
+      <button id="newGameButton" onclick="newGame()">RESET GAME</button>
     </div>
 
     <div class="panel">
       <h3 id="textOutput">Enter guess and press return</h3>
-      <input type="text" id="inputBox" onchange="compareGuess()">
+      <input type="number" id="inputBox" onchange="compareGuess()" autocomplete="off">
       <p>Number of guesses ~ <span id="attempts"></span></p>
     </div>
 
