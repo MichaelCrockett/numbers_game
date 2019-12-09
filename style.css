@@ -60,3 +60,9 @@ input {
 input::placeholder {
   color: lime;
 }
+
+#textOutput {
+  background-color: lime;
+  color: black;
+  opacity: 100%;
+}

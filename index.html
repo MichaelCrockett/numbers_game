@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <title>Number Game</title>
 </head>
 <body onload="init()">
@@ -12,36 +12,26 @@
     <div class="panel">
       <h1>WOULD YOU LIKE<br>TO PLAY A GAME?</h1>
       <h3>Guess the number 1-100</h3>
-      <button onclick="newGame()">BEGIN GAME</button>
+
+      <p>Select difficulty setting:</p>
+      <button id="easyBtn" onclick="easyMode()" class="">Easy: Guess in 10 attempts [default]</button>
+      <button id="hardBtn" onclick="hardMode()" class="">Hard: Guess in 5 attempts</button>
+      <button id="newGameButton" onclick="newGame()">BEGIN GAME</button>
     </div>
 
     <div class="panel">
-      <h3>Enter guess and press return</h3>
-      <input type="text" placeholder="_ _ _">
-      <p>Number of previous attempts: <span>0</span></p>
+      <h3 id="textOutput">Enter guess and press return</h3>
+      <input type="text" id="inputBox" onchange="compareGuess()">
+      <p>Number of guesses ~ <span id="attempts"></span></p>
     </div>
 
     <div class="panel">
-      <p>Your previous guesses: </p>
+      <p>Previous guesses ~ </p>
       <p id="guessLog"></p>
     </div>
   </div>
 
-  <script>
-
-    var initialNumber;
-
-    function newGame() {
-      window.location.reload();
-
-    }
-
-    function init() {
-      initialNumber = Math.floor(Math.random() *100 + 1);
-      console.log(initialNumber);
-    }
-
-  </script>
+  <script src="script.js"></script>
 
 </body>
 </html>
